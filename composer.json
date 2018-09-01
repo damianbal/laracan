@@ -1,0 +1,23 @@
+{
+    "name": "damianbal/laracan",
+    "description": "Laravel Policy access by route",
+    "authors": [
+        {
+            "name": "Damian",
+            "email": "balandowski@icloud.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "damianbal\\Laracan\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "damianbal\\Laracan\\LaracanServiceProvider"
+            ]
+        }
+    }
+}
